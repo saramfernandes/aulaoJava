@@ -26,8 +26,8 @@ class CampeonatoTeste {
 		t3.addJogador(new Jogador("E", 11, 2));
 		t3.addJogador(new Jogador("F", 1, 0));
 		
-		t4.addJogador(new Jogador("g", 10, 2));
-		t4.addJogador(new Jogador("h", 11, 2));
+		t4.addJogador(new Jogador("g", 10, 0));
+		t4.addJogador(new Jogador("h", 11, 0));
 		t4.addJogador(new Jogador("i", 1, 0));
 	}
 	

@@ -42,6 +42,9 @@ public class Time {
 	}
 	
 	public Jogador getArtilheiro() {
+		if (getGols() == 0) {
+			return null;
+		}
 		if (jogadores.size() > 0) {
 			Jogador art = jogadores.get(0);
 			for (Jogador jogador : jogadores) {
